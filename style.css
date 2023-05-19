@@ -1,3 +1,49 @@
 body {
+  font-family: system-ui;
+  background: #f06d06;
+  color: white;
+  text-align: center;
+ 
+}
 
+nav{
+  list-style-type:none;
+  position: fixed;
+  background-color: lightblue;
+  width: 100vw;
+  top: 0;
+  left:0;
+    padding: 30px;
+
+}
+
+li{
+  display: inline;
+  padding: 150px;
+  
+}
+
+a{
+  text-decoration: none;
+  color: navyblue;
+  transition: .3s;
+  font-size: 20px;
+
+  
+}
+a:hover{
+    color:#fdbb32;
+  }
+
+h2:hover{
+  text-shadow: 1px 1px 5px white;
+}
+  
+h2{
+    
+    color: #f0ba4b;
+    font-size:5em;
+    text-align: center;
+    animation: animate 2s linear infinite;
+  
 }
